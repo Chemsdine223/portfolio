@@ -10,6 +10,7 @@ const Footer = () => {
     <div className=" bg-slate-50 border-t-[.5px] border-t-slate-200 bottom-0 p-3 mt-2">
       <div className="rounded-lg p-4 flex justify-between">
         <div className="">Follow me</div>
+        <div className="font-extralight">Chemsdine223@gmail.com</div>
         <div className="flex gap-2">
           <Link className="cursor-pointer">
             <img className="h-8" src={LinkedIn} color="red" alt="LinkedIn" />

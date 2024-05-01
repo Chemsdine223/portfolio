@@ -13,13 +13,12 @@ const MainLayout = () => {
   };
 
   return (
-    <div>
-      {/* Pass the scrollToSection function to the NavBar */}
+    <div className="bg-gray-50">
+
       <NavBar scrollToSection={scrollToSection} />
-      <div className="bg-gray-50">
-        <div className="container mx-auto px-3 sm:p-0">
-          <Outlet />
-        </div>
+
+      <div className="container mx-auto px-3 sm:p-0">
+        <Outlet />
       </div>
       <Footer />
     </div>

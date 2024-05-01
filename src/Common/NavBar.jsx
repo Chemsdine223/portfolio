@@ -30,9 +30,9 @@ const NavBar = ({ scrollToSection }) => {
           Experience
         </Link>
         <div className="flex gap-2">
-          <a href="https://www.linkedin.com/in/chems-dine-39aa882b8" className="cursor-pointer"><img className="h-8" src={LinkedIn} color="red" alt="LinkedIn" /></a>
-          <a href="https://github.com/Chemsdine223" className="cursor-pointer"><img className="h-8" src={github} alt="LinkedIn" /></a>
-          <a href="#H" className="cursor-pointer"><img className="h-8" src={mail} alt="LinkedIn" /></a>
+          <a href="https://www.linkedin.com/in/chems-dine-39aa882b8" rel="noreferrer" target="_blank" className="cursor-pointer"><img className="h-8" src={LinkedIn} color="red" alt="LinkedIn" /></a>
+          <a href="https://github.com/Chemsdine223" rel="noreferrer" target="_blank" className="cursor-pointer"><img className="h-8" src={github} alt="LinkedIn" /></a>
+          <a href="/" className="cursor-pointer"><img className="h-8" src={mail} alt="LinkedIn" /></a>
         </div>
       </nav>
       <nav className="lg:hidden md:hidden text-white flex items-center w-full justify-end">

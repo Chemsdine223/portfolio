@@ -1,9 +1,10 @@
-import React from "react";
+import React from "react"; 
+import computer from "../../../Assets/notebook.png";
+import server from "../../../Assets/database-storage.png";
 
-// import dart from "../Assets/dart-programming-language-icon.png";
-// import python from "../Assets/python.png";
-// import js from "../Assets/js.png";
-import imagePlaceHolder from "../../../Assets/notebook.png";
+import TechStack from "./TechStack";
+import { frontEnd, backEnd, languages } from "../../../Common/Constants";
+
 
 const SecondSection = () => {
   return (
@@ -17,56 +18,11 @@ const SecondSection = () => {
           These are the technologies I've been using
         </div>
       </div>
-      <div className="flex justify-around bg-red-200">
-        <div className=" bg-slate-600 ">
-          <div className="flex">
-          <img className="h-[24px]" src={imagePlaceHolder} alt="React Jobs" />
-            <div>Front-End</div>
-          </div>
-
-          <div className="flex flex-col items-center">
-          <div className="flex">
-            <div>Logo</div>
-            <div>JS</div>
-          </div>
-          <div>Node</div>
-          <div>React</div>
-          <div>Firebase</div>
-          </div>
-        </div>
-        <div className="">
-          <div>JS</div>
-          <div>Node</div>
-          <div>React</div>
-          <div>Firebase</div>
-        </div>
-        <div className="">
-          <div>JS</div>
-          <div>Node</div>
-          <div>React</div>
-          <div>Firebase</div>
-        </div>
+      <div className="flex justify-around my-12">
+        <TechStack image={computer} label="Front-End" imagesList={frontEnd} />
+        <TechStack image={server} label="Back-End" imagesList={backEnd}/>
+        <TechStack image={languages} label="Languages" imagesList={languages} />
       </div>
-      {/* <div className="justify-center bg-orange-100 flex">
-        <div className="">
-          <div>JS</div>
-          <div>Node</div>
-          <div>React</div>
-          <div>Firebase</div>
-        </div>
-        <div className="bg-green-500 w-full">
-          <div>For the Front-End</div>
-          <div>Node</div>
-          <div>React</div>
-          <div>Firebase</div>
-        </div>
-        <div className="bg-green-500 w-full">
-          <div>JS</div>
-          <div>Node</div>
-          <div>React</div>
-          <div>Firebase</div>
-        </div>
-      </div> */}
     </div>
   );
 };
