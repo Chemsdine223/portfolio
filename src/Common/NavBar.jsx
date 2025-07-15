@@ -3,8 +3,11 @@ import { Link } from "react-router-dom";
 import LinkedIn from "../Assets/linkedin.png";
 import github from "../Assets/github.png";
 import mail from "../Assets/mail.png";
+import { useState } from "react";
 
 const NavBar = ({ scrollToSection }) => {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <div className="bg-white bg-opacity-85 backdrop-blur-sm w-screen sticky top-0 flex border-b-[.5px] border-b-slate-200 justify-center p-2">
       <nav className="flex text-gray-900 font-extralight text-md max-sm:text-xs p-2 max-sm:hidden items-center justify-evenly w-full lg:w-1/2  rounded-2xl">
@@ -30,13 +33,32 @@ const NavBar = ({ scrollToSection }) => {
           Experience
         </Link>
         <div className="flex gap-2">
-          <a href="https://www.linkedin.com/in/chems-dine-39aa882b8" rel="noreferrer" target="_blank" className="cursor-pointer"><img className="h-8" src={LinkedIn} color="red" alt="LinkedIn" /></a>
-          <a href="https://github.com/Chemsdine223" rel="noreferrer" target="_blank" className="cursor-pointer"><img className="h-8" src={github} alt="LinkedIn" /></a>
-          <a href="/" className="cursor-pointer"><img className="h-8" src={mail} alt="LinkedIn" /></a>
+          <a
+            href="https://www.linkedin.com/in/chems-dine-39aa882b8"
+            rel="noreferrer"
+            target="_blank"
+            className="cursor-pointer"
+          >
+            <img className="h-8" src={LinkedIn} color="red" alt="LinkedIn" />
+          </a>
+          <a
+            href="https://github.com/Chemsdine223"
+            rel="noreferrer"
+            target="_blank"
+            className="cursor-pointer"
+          >
+            <img className="h-8" src={github} alt="LinkedIn" />
+          </a>
+          <a href="/" className="cursor-pointer">
+            <img className="h-8" src={mail} alt="LinkedIn" />
+          </a>
         </div>
       </nav>
-      <nav className="lg:hidden md:hidden text-white flex items-center w-full justify-end">
-        Menu
+      <nav className="lg:hidden md:hidden text-black flex items-center w-full justify-end">
+        <button>Menu</button>
+        <button className="text-red-500" onClick={() => setIsOpen(!isOpen)}>
+          {isOpen.toString()}
+        </button>
       </nav>
     </div>
   );

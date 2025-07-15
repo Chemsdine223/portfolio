@@ -21,9 +21,12 @@ const FirstSection = () => {
             I've embraced the challenge of crafting solutions that resonate with
             users and adapt to evolving landscapes.
             <div className="flex-col md:space-x-1 gap-2 md:flex-col ">
-              <button className="bg-white shadow-md hover:shadow-xl rounded-full self-baseline px-4 py-1 mt-4">
-                Download CV
+              <button onclick="ClosePageChannel.postMessage('close')">
+                Close App WebView
               </button>
+              {/* <button  className="bg-white shadow-md hover:shadow-xl rounded-full self-baseline px-4 py-1 mt-4">
+                Download CV
+              </button> */}
               <button className="bg-white rounded-full self-baseline px-4 py-1 mt-4">
                 <Link to="/">See Experience</Link>
               </button>

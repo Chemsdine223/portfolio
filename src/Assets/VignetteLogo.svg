@@ -1,0 +1,19 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Duo tone Icon V2" clip-path="url(#clip0_1342_2019)">
+<path id="Vector" opacity="0.2" d="M28 23V26C28 26.2652 27.8946 26.5196 27.7071 26.7071C27.5196 26.8946 27.2652 27 27 27H24C23.7348 27 23.4804 26.8946 23.2929 26.7071C23.1054 26.5196 23 26.2652 23 26V23H28Z" fill="#004B7A"/>
+<path id="Vector_2" opacity="0.2" d="M9 23V26C9 26.2652 8.89464 26.5196 8.70711 26.7071C8.51957 26.8946 8.26522 27 8 27H5C4.73478 27 4.48043 26.8946 4.29289 26.7071C4.10536 26.5196 4 26.2652 4 26V23H9Z" fill="#004B7A"/>
+<path id="Vector_3" opacity="0.2" d="M28 15L24.2875 8.5C24.1996 8.34777 24.0731 8.22139 23.9208 8.13361C23.7685 8.04583 23.5958 7.99974 23.42 8H8.58C8.40421 7.99974 8.23146 8.04583 8.07916 8.13361C7.92686 8.22139 7.80039 8.34777 7.7125 8.5L4 15H28Z" fill="#004B7A"/>
+<path id="Vector_4" d="M20 8L18.25 3.625C18.1752 3.44007 18.0468 3.28174 17.8813 3.17036C17.7158 3.05899 17.5207 2.99966 17.3213 3H14.6775C14.4782 2.99991 14.2835 3.05935 14.1182 3.17071C13.9529 3.28207 13.8247 3.44027 13.75 3.625L12 8" stroke="#004B7A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M2 15H30" stroke="#004B7A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_6" d="M28 23V26C28 26.2652 27.8946 26.5196 27.7071 26.7071C27.5196 26.8946 27.2652 27 27 27H24C23.7348 27 23.4804 26.8946 23.2929 26.7071C23.1054 26.5196 23 26.2652 23 26V23" stroke="#004B7A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_7" d="M9 23V26C9 26.2652 8.89464 26.5196 8.70711 26.7071C8.51957 26.8946 8.26522 27 8 27H5C4.73478 27 4.48043 26.8946 4.29289 26.7071C4.10536 26.5196 4 26.2652 4 26V23" stroke="#004B7A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_8" d="M8 19H10" stroke="#004B7A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_9" d="M22 19H24" stroke="#004B7A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_10" d="M28 15L24.2875 8.5C24.1996 8.34777 24.0731 8.22139 23.9208 8.13361C23.7685 8.04583 23.5958 7.99974 23.42 8H8.58C8.40421 7.99974 8.23146 8.04583 8.07916 8.13361C7.92686 8.22139 7.80039 8.34777 7.7125 8.5L4 15V23H28V15Z" stroke="#004B7A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_1342_2019">
+<rect width="32" height="32" fill="white"/>
+</clipPath>
+</defs>
+</svg>

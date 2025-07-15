@@ -1,0 +1,15 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Duo tone Icon V2" clip-path="url(#clip0_1342_278)">
+<path id="Vector" opacity="0.2" d="M27 6H5C4.73478 6 4.48043 6.10536 4.29289 6.29289C4.10536 6.48043 4 6.73478 4 7V25C4 25.2652 4.10536 25.5196 4.29289 25.7071C4.48043 25.8946 4.73478 26 5 26H27C27.2652 26 27.5196 25.8946 27.7071 25.7071C27.8946 25.5196 28 25.2652 28 25V7C28 6.73478 27.8946 6.48043 27.7071 6.29289C27.5196 6.10536 27.2652 6 27 6ZM12 18C11.4067 18 10.8266 17.8241 10.3333 17.4944C9.83994 17.1648 9.45542 16.6962 9.22836 16.1481C9.0013 15.5999 8.94189 14.9967 9.05764 14.4147C9.1734 13.8328 9.45912 13.2982 9.87868 12.8787C10.2982 12.4591 10.8328 12.1734 11.4147 12.0576C11.9967 11.9419 12.5999 12.0013 13.1481 12.2284C13.6962 12.4554 14.1648 12.8399 14.4944 13.3333C14.8241 13.8266 15 14.4067 15 15C15 15.7956 14.6839 16.5587 14.1213 17.1213C13.5587 17.6839 12.7956 18 12 18Z" fill="#004B7A"/>
+<path id="Vector_2" d="M19 14H24" stroke="#004B7A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M19 18H24" stroke="#004B7A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M27 6H5C4.44772 6 4 6.44772 4 7V25C4 25.5523 4.44772 26 5 26H27C27.5523 26 28 25.5523 28 25V7C28 6.44772 27.5523 6 27 6Z" stroke="#004B7A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M12 18C13.6569 18 15 16.6569 15 15C15 13.3431 13.6569 12 12 12C10.3431 12 9 13.3431 9 15C9 16.6569 10.3431 18 12 18Z" stroke="#004B7A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_6" d="M8 21C8.44375 19.275 10.1363 18 12 18C13.8637 18 15.5575 19.2737 16 21" stroke="#004B7A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_1342_278">
+<rect width="32" height="32" fill="white"/>
+</clipPath>
+</defs>
+</svg>
