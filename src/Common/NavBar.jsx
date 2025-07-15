@@ -54,9 +54,7 @@ const NavBar = ({ scrollToSection }) => {
           </a>
         </div>
       </nav>
-      <nav className="lg:hidden md:hidden text-black flex items-center w-full justify-end">
-        <button>Menu</button>
-      </nav>
+
     </div>
   );
 };
