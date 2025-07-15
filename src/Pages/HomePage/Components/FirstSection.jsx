@@ -21,7 +21,18 @@ const FirstSection = () => {
             I've embraced the challenge of crafting solutions that resonate with
             users and adapt to evolving landscapes.
             <div className="flex-col md:space-x-1 gap-2 md:flex-col ">
-              <button onclick="ClosePageChannel.postMessage('close')">
+              <button
+                onClick={() => {
+                  if (
+                    window.ClosePageChannel &&
+                    window.ClosePageChannel.postMessage
+                  ) {
+                    window.ClosePageChannel.postMessage("close");
+                  } else {
+                    console.warn("ClosePageChannel is not available");
+                  }
+                }}
+              >
                 Close App WebView
               </button>
               {/* <button  className="bg-white shadow-md hover:shadow-xl rounded-full self-baseline px-4 py-1 mt-4">

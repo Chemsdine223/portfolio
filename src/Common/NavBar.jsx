@@ -56,9 +56,6 @@ const NavBar = ({ scrollToSection }) => {
       </nav>
       <nav className="lg:hidden md:hidden text-black flex items-center w-full justify-end">
         <button>Menu</button>
-        <button className="text-red-500" onClick={() => setIsOpen(!isOpen)}>
-          {isOpen.toString()}
-        </button>
       </nav>
     </div>
   );
