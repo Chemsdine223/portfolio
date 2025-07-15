@@ -16,7 +16,14 @@ const Footer = () => {
             <img className="h-8" src={LinkedIn} color="red" alt="LinkedIn" />
           </Link>
           <Link className="cursor-pointer">
-            <img className="h-8" src={github} alt="LinkedIn" />
+            <a
+              href="https://github.com/Chemsdine223"
+              rel="noreferrer"
+              target="_blank"
+              className="cursor-pointer"
+            >
+              <img className="h-8" src={github} alt="LinkedIn" />
+            </a>
           </Link>
           <Link className="cursor-pointer">
             <img className="h-8" src={mail} alt="LinkedIn" />
