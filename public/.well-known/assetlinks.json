@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.example.webview",
+      "sha256_cert_fingerprints": [
+        "2D:C5:94:C7:32:4C:2C:07:AA:AD:84:05:13:57:08:E3:B2:E0:82:DB:79:3D:02:C9:F4:A6:48:62:39:9E:AE:EC"
+      ]
+    }
+  }
+]
