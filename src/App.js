@@ -8,16 +8,25 @@ import MainLayout from "./Layout/MainLayout";
 import HomePage from "./Pages/HomePage/HomePage";
 import Experience from "./Pages/Experience/Experience";
 import Education from "./Pages/Education/Education";
+import PaymentMethods from "./Pages/payment_methods";
 
 function App() {
   const router = createBrowserRouter(
-    createRoutesFromElements(<Route path="/" element={<MainLayout />}>
-      <Route index element={<HomePage />} />
-      <Route path="/experience" element={<Experience />} />
-      <Route path="/education" element={<Education />} />
-    </Route>
+    createRoutesFromElements(
+      <>
+        {/* Routes using MainLayout */}
+        <Route path="/" element={<MainLayout />}>
+          <Route index element={<HomePage />} />
+          <Route path="experience" element={<Experience />} />
+          <Route path="education" element={<Education />} />
+        </Route>
+
+        {/* Standalone route without layout */}
+        <Route path="/next-payment" element={<PaymentMethods />} />
+      </>
     )
   );
+
   return <RouterProvider router={router} />;
 }
 
