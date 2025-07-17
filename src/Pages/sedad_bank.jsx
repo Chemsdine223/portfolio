@@ -32,9 +32,9 @@ const SedadBank = () => {
     }
     setStep("success");
 
-    setTimeout(() => {
-      sendMessageToFlutter("close");
-    }, 2000);
+    // setTimeout(() => {
+    //   sendMessageToFlutter("close");
+    // }, 2000);
   };
 
   const renderPhoneStep = () => (
