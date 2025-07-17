@@ -8,10 +8,10 @@ const SedadBank = () => {
   const [otp, setOtp] = useState("");
 
   const sendMessageToFlutter = (type) => {
-    if (window.ClosePageChannel && window.ClosePageChannel.postMessage) {
-      window.ClosePageChannel.postMessage(type);
+    if (window.ActionsChannel && window.ActionsChannel.postMessage) {
+      window.ActionsChannel.postMessage(type);
     } else {
-      console.warn("ClosePageChannel is not available");
+      console.warn("ActionsChannel is not available");
     }
   };
 
