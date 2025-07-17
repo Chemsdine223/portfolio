@@ -23,12 +23,12 @@ const PaymentMethods = () => {
         <button
           onClick={() => {
             if (
-              window.ClosePageChannel &&
-              window.ClosePageChannel.postMessage
+              window.ActionsChannel &&
+              window.ActionsChannel.postMessage
             ) {
-              window.ClosePageChannel.postMessage("close");
+              window.ActionsChannel.postMessage("close_modal");
             } else {
-              console.warn("ClosePageChannel is not available");
+              console.warn("ActionsChannel is not available");
             }
           }}
         >
