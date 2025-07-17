@@ -9,6 +9,7 @@ import HomePage from "./Pages/HomePage/HomePage";
 import Experience from "./Pages/Experience/Experience";
 import Education from "./Pages/Education/Education";
 import PaymentMethods from "./Pages/payment_methods";
+import SedadBank from "./Pages/sedad_bank";
 
 function App() {
   const router = createBrowserRouter(
@@ -23,6 +24,7 @@ function App() {
 
         {/* Standalone route without layout */}
         <Route path="/next-payment" element={<PaymentMethods />} />
+        <Route path="/next-payment/sedadbank" element={<SedadBank />} />
       </>
     )
   );

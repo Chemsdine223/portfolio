@@ -6,7 +6,7 @@ const banks = [
   {
     name: "Sedad Bank",
     icon: "../Assets/sedad_logo.png",
-    link: "https://portfolio-zeta-self-68.vercel.app/next-payment/sedadbank",
+    link: "next-payment/sedadbank",
   },
 ];
 
