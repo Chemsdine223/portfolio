@@ -9,7 +9,13 @@ const SedadBank = () => {
 
   const sendMessageToFlutter = (type) => {
     if (window.ActionsChannel && window.ActionsChannel.postMessage) {
-      window.ActionsChannel.postMessage(type);
+      window.ActionsChannel.postMessage(
+        JSON.stringify({
+          type: type,
+          amount: 9000,
+          user: "Chemsdine",
+        })
+      );
     } else {
       console.warn("ActionsChannel is not available");
     }
