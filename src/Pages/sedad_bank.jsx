@@ -50,7 +50,8 @@ const SedadBank = () => {
         <h2 className="font-semibold text-lg">Sedad Bank</h2>
       </div>
       <input
-        type="tel"
+        type="number"
+        maxLength={8}
         placeholder="33 22 33 01"
         value={phone}
         onChange={(e) => setPhone(e.target.value)}
@@ -75,7 +76,7 @@ const SedadBank = () => {
         </p>
       </div>
       <input
-        type="tel"
+        type="number"
         maxLength={6}
         value={otp}
         onChange={(e) => setOtp(e.target.value)}
