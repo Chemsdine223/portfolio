@@ -22,11 +22,14 @@ const PaymentMethods = () => {
       <div className="flex items-center mb-6">
         <button
           onClick={() => {
-            if (
-              window.ActionsChannel &&
-              window.ActionsChannel.postMessage
-            ) {
-              window.ActionsChannel.postMessage("close_modal");
+            if (window.ActionsChannel && window.ActionsChannel.postMessage) {
+              window.ActionsChannel.postMessage(
+                JSON.stringify({
+                  type: "close_modal",
+                  amount: 9000,
+                  user: "Chemsdine",
+                })
+              );
             } else {
               console.warn("ActionsChannel is not available");
             }
